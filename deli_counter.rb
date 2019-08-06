@@ -18,3 +18,9 @@ def take_a_number(array, name)
   array.push("#{name}")
   puts "Welcome #{name} you are number #{array.length} in line."
 end 
+
+def now_serving(array) 
+  if array.length >= 1 
+    puts "Currently serving: #{array[0]}." 
+  else 
+    puts ""
